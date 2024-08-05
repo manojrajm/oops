@@ -6,7 +6,7 @@ class Guitar implements Playable{
 		System.out.println("The guitar plays");
 	}
 }
-class Piano extends Guitar{
+class Piano extends Playable{
 	public void play(){
 		System.out.println("The Piano plays");
 	}
